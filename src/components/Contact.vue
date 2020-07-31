@@ -65,7 +65,7 @@
   </div>
 </template>
 <script>
-import ImgMe from '../assets/images/ken2019.jpg'
+import ImgMe from '../assets/images/ken1.jpg'
 import ImgMask from '../assets/images/img_mask.svg'
 import ImgPicBg from '../assets/images/header-bg.jpg'
 import ImgLogo2 from '../assets/images/logo-ken2.png'
@@ -84,29 +84,21 @@ export default {
       contact: [
         {
           icon: 'mobile-alt',
-          data: '0911241129'
+          data: '0912968315'
         },
         {
           icon: 'envelope',
-          data: 'shuen29@gmail.com'
+          data: 'dr.k0327@gmail.com'
         }
       ],
       links: [
         {
           iconName: 'github',
-          link: 'https://github.com/ken'
-        },
-        {
-          iconName: 'github-alt',
-          link: 'https://ken.github.io/'
-        },
-        {
-          iconName: 'wordpress',
-          link: 'https://mango-pizza.life'
+          link: 'https://github.com/ken0327'
         },
         {
           iconName: 'codepen',
-          link: 'https://codepen.io/ken/'
+          link: 'https://codepen.io/ken0327/'
         }
       ]
     }
