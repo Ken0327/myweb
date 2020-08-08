@@ -4,7 +4,7 @@
       <div class="table-cell text-center">
         <div class="container">
           <h1 class="title">{{ title }}</h1>
-          <h2 class="typer-title"><vue-typer :text="['I am a Software Developer','Musician and Cat person']"></vue-typer></h2>
+          <h2 class="typer-title"><vue-typer :text="['I am a Software Developer','Music and Cat person']"></vue-typer></h2>
           <a href="#about" class="scroll home-s-btn hor-center"><span class="dot center"></span></a>
         </div>
       </div>
