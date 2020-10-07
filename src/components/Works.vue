@@ -38,6 +38,7 @@
 import ImgWork_invest from '../assets/images/works/invest.jpg'
 import ImgWork_pet from '../assets/images/works/cat.jpg'
 import ImgWork_music from '../assets/images/works/music.jpg'
+import ImgWork_dataInnovation from '../assets/images/works/dataInnovation.jpg'
 
 export default {
   name: 'Works',
@@ -67,6 +68,14 @@ export default {
           tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
           image: ImgWork_music,
           description: [
+            ]
+        },
+        {
+          title: '創意數據提案大賽',
+          tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
+          image: ImgWork_dataInnovation,
+          description: [
+            'DFM價值用戶模型'
             ]
         },
         // {
