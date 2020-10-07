@@ -35,12 +35,9 @@
 </template>
 
 <script>
-// import { WOW } from 'wowjs'
-// import ImgWork_momoBrand from '../assets/images/works/momo-brand.jpg'
-// import ImgWork_momoIndex from '../assets/images/works/momoshop-index.jpg'
-// import ImgWork_momoMobile from '../assets/images/works/momoshop-mobile.jpg'
-// import ImgWork_climbStair from '../assets/images/works/climb-stairs.jpg'
-// import ImgWork_vueTodo from '../assets/images/works/vue-todo-1.jpg'
+import ImgWork_invest from '../assets/images/works/invest.jpg'
+import ImgWork_pet from '../assets/images/works/cat.jpg'
+import ImgWork_music from '../assets/images/works/music.jpg'
 
 export default {
   name: 'Works',
@@ -48,16 +45,30 @@ export default {
   data () {
     return {
       works: [
-        // {
-        //   title: 'MOMOSHOP 品牌旗艦館',
-        //   tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
-        //   image: ImgWork_momoBrand,
-        //   link: 'https://www.momoshop.com.tw/brand/Main.jsp',
-        //   description: [
-        //     '依照設計的畫面，切版並重寫 CSS',
-        //     '使用 jQuery 撰寫 Menu 中的 "依字母 & 依注音" 的切換，在此遇到畫面中有另一個子畫面且子畫面中點選後要滾動、定位的挑戰'
-        //     ]
-        // },
+        {
+          title: '投資筆記',
+          tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
+          image: ImgWork_invest,
+          // link: 'https://www.momoshop.com.tw/brand/Main.jsp',
+          description: [
+            // '依照設計的畫面，切版並重寫 CSS',
+            // '使用 jQuery 撰寫 Menu 中的 "依字母 & 依注音" 的切換，在此遇到畫面中有另一個子畫面且子畫面中點選後要滾動、定位的挑戰'
+            ]
+        },
+        {
+          title: '寵物當家',
+          tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
+          image: ImgWork_pet,
+          description: [
+            ]
+        },
+        {
+          title: '音樂天地',
+          tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
+          image: ImgWork_music,
+          description: [
+            ]
+        },
         // {
         //   title: 'MOMOSHOP (Desktop)',
         //   tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
