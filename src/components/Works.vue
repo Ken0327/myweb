@@ -50,7 +50,7 @@ export default {
           title: '投資筆記',
           tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
           image: ImgWork_invest,
-          // link: 'https://www.momoshop.com.tw/brand/Main.jsp',
+          link: 'http://djkencat.com/invest',
           description: [
             // '依照設計的畫面，切版並重寫 CSS',
             // '使用 jQuery 撰寫 Menu 中的 "依字母 & 依注音" 的切換，在此遇到畫面中有另一個子畫面且子畫面中點選後要滾動、定位的挑戰'
@@ -60,6 +60,7 @@ export default {
           title: '寵物當家',
           tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
           image: ImgWork_pet,
+          link: 'http://djkencat.com/pet',
           description: [
             ]
         },
@@ -67,6 +68,7 @@ export default {
           title: '音樂天地',
           tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
           image: ImgWork_music,
+          link: 'http://djkencat.com/music',
           description: [
             ]
         },
@@ -74,6 +76,7 @@ export default {
           title: '創意數據提案大賽',
           tags: ['HTML', 'CSS3', 'Javascript', 'jQuery'],
           image: ImgWork_dataInnovation,
+          link: 'http://djkencat.com/dataInnovation',
           description: [
             'DFM價值用戶模型'
             ]
